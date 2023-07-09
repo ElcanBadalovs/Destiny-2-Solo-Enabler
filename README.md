@@ -1,3 +1,4 @@
-# PNFT-Market-Registration
+# PNFT Market-Registration
 <img src="https://github.com/ElcanBadalovs/PNFT-Market-Registration/blob/main/PNFT%20Market.png?raw=true"></img>
-PNFT Market - Registration
+
+I designed the Registration page of an NFT store called PNFT Market using HTML, CSS and JavaScript
