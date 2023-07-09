@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 40px;
+    background-color: #EFF0FF;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col-form-section{
+    width: 100%;
+}
+
+.col-logo{
+    margin-top: 88px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.col-logo h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .headline{
+    margin-bottom: 56px;
+    width: 100%;
+}
+
+.form .headline h1{
+    margin-bottom: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #344054;
+}
+
+.form .headline p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+}
+
+.form .email, .password{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form .email label, .password label{
+    margin-bottom: 8px;
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form .email input, .password .password-block input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+
+.password-block, .email-block{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fa-circle-xmark{
+    display: none;
+    position: absolute;
+    left: 300px;
+    background-color: #fff;
+    font-size: 17px;
+}
+
+.btn-email, .btn-password{
+    width: 220px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.fa-eye{
+    position: absolute;
+    left: 300px;
+    background-color: #fff;
+}
+
+
+.password i:last-child{
+    display: none;
+    position: absolute;
+    left: 300px;
+    background-color: #fff;
+}
+
+.form .remember-me{
+    margin-bottom: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form .remember-me .col-check{
+    display: flex;
+    align-items: center;   
+}
+
+.form .remember-me .col-check input{
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+}
+
+.form .remember-me label, a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form .remember-me .col-check label{
+    color: #344054;
+}
+
+.form .remember-me .col a{
+    text-decoration: none;
+    color: #5429FF;
+}
+
+.sign-in{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.sign-in button{
+    padding: 12px 0px;
+    width: 100%;
+    background-color: #5429FF;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sign-google{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.sign-google button{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #344054;
+}
+
+.form .sign-up{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #344054;
+}
+
+.form .sign-up a{
+    color: #5429FF;
+    text-decoration: none;
+}
+
+ .col-image{
+    display: none;
+}
+
+@media(min-width: 1024px){
+    .col-image{
+        width: 568px;
+        height: 696px;
+        background-image: url(image/image.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #CBCCE8;
+        border-radius: 40px;
+        display: inline;
+    }
+
+    .col-logo{
+        position: absolute;
+        flex-direction: initial;
+        margin: initial;
+        top: 40px;
+        left: 40px;
+    }
+
+    .col-form-section{
+        width: initial;
+    }
+
+    .form{
+        margin-top: 68px;
+    }
+
+    .form .headline h1{
+        font-size: 40px;
+    }
+    .form .headline p{
+        font-size: 16px;
+    }
+}
